@@ -1,0 +1,7 @@
+.icon-social {
+    border-bottom: 3px solid transparent;
+}
+
+.icon-social:hover {
+    border-bottom: 3px solid purple;
+}
