@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { getSkills, getTimeline  } from "../api/resume_api";
+import { getTimeline  } from "../api/resume_api";
 
 interface Timeline {
     type: 'experience' | 'education';
@@ -11,17 +11,10 @@ interface Timeline {
     description: string;
 }
 
-interface Skill {
-    name: string;
-    category: string;
-}
-
 function Resume() {
-    const [ skill, setSkill ] = useState<Skill[]>([]);
     const [timeline, setTimeLine] = useState<Timeline[]>([]);
 
     useEffect(() => {
-        getSkills().then(skill => setSkill(skill));
         getTimeline().then(timeline => setTimeLine(timeline));
     }, []);
     return(
