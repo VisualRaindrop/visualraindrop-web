@@ -27,9 +27,9 @@ function Contact() {
         <section id={'Contact'} className={'min-h-screen'}>
             <div className='min-h-screen flex flex-col items-center justify-center px-8'>
                 <div className={'text-center mb-8'}>
-                    <h3 className={'text-4xl font-bold text-white'}>Send me a Message!</h3>
+                    <h2 className={'text-2xl md:text-3xl xl:text-4xl 2xl:text-5xl font-bold text-white'}>Send me a Message!</h2>
                 </div>
-                <form onSubmit={handleSubmit} className={'w-1/2 flex flex-col gap-2 rounded-lg'}>
+                <form onSubmit={handleSubmit} className={'w-1/2 flex flex-col gap-2 text-black rounded-lg'}>
                     <input
                         type='text'
                         name='name'
