@@ -1,6 +1,7 @@
 import Introduction from "../sections/Introduction";
 import About from "../sections/About";
 import Resume from "../sections/Resume";
+import Contact from "../sections/Contact";
 
 function Home() {
     return (
@@ -9,6 +10,7 @@ function Home() {
                 <Introduction />
                 <About />
                 <Resume />
+                <Contact />
             </div>
         </main>
     )
