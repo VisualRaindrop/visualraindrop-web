@@ -1,7 +1,12 @@
+from django.core.mail import EmailMessage
+from rest_framework import status
 from rest_framework.decorators import api_view
 from rest_framework.response import Response
+
+from api.forms import ContactForm
 from api.models import Education, Experience, Skill
 from api.serializers import EducationSerializer, ExperienceSerializer, SkillSerializer
+from config import settings
 
 
 @api_view(['GET'])
@@ -49,6 +54,32 @@ def timeline(request):
     line.sort(key=lambda x: x['start_date'], reverse=True)
 
     return Response(line)
+
+@api_view(['POST'])
+def contact_form(request):
+    form = ContactForm(request.data)
+
+    if form.is_valid():
+        name = form.cleaned_data['name']
+        email = form.cleaned_data['email']
+        message = form.cleaned_data['message']
+
+        full_message = (f'Received a message from {name}, {email}\n'
+                        f'________________________\n\n'
+                        f'{message}')
+
+        email_message = EmailMessage(
+            subject=f'Received a Contact Form - {name}',
+            body=full_message,
+            from_email=settings.DEFAULT_FROM_EMAIL,
+            to=[settings.CONTACT_EMAIL],
+            reply_to=[email]
+        )
+
+        email_message.send(fail_silently=True)
+
+        return Response({'status': 'success'}, status=status.HTTP_201_CREATED)
+    return Response({'status': 'error'}, status=status.HTTP_400_BAD_REQUEST)
 
 def format_date(date):
     return date.strftime('%b %Y')
