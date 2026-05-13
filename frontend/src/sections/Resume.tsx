@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { getTimeline  } from "../api/resume_api";
+import { get_timeline  } from "../api/Resume_Api";
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 
@@ -14,10 +14,10 @@ interface Timeline {
 }
 
 function Resume() {
-    const [timeline, setTimeLine] = useState<Timeline[]>([]);
+    const [timeline, set_timeline] = useState<Timeline[]>([]);
 
     useEffect(() => {
-        getTimeline().then(timeline => setTimeLine(timeline));
+        get_timeline().then(timeline => set_timeline(timeline));
     }, []);
     return(
         <section className={'min-h-screen'}>

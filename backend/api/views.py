@@ -1,4 +1,4 @@
-from django.core.mail import send_mail
+from django.core.mail import EmailMessage
 from rest_framework import status
 from rest_framework.decorators import api_view
 from rest_framework.response import Response
@@ -7,7 +7,6 @@ from api.forms import ContactForm
 from api.models import Education, Experience, Skill
 from api.serializers import EducationSerializer, ExperienceSerializer, SkillSerializer
 from config import settings
-from config.settings import DEFAULT_FROM_EMAIL
 
 
 @api_view(['GET'])
@@ -69,14 +68,18 @@ def contact_form(request):
                         f'________________________\n\n'
                         f'{message}')
 
-        send_mail(
+        email_message = EmailMessage(
             subject=f'Received a Contact Form - {name}',
-            message=full_message,
+            body=full_message,
             from_email=settings.DEFAULT_FROM_EMAIL,
-            recipient_list=[DEFAULT_FROM_EMAIL],
+            to=[settings.CONTACT_EMAIL],
+            reply_to=[email]
         )
 
+        email_message.send(fail_silently=True)
+
         return Response({'status': 'success'}, status=status.HTTP_201_CREATED)
+    return Response({'status': 'error'}, status=status.HTTP_400_BAD_REQUEST)
 
 def format_date(date):
     return date.strftime('%b %Y')
