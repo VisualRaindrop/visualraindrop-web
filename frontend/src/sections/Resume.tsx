@@ -21,7 +21,7 @@ function Resume() {
     }, []);
     return(
         <section className={'min-h-screen'}>
-            <h3 className={'text-4xl pb-8 font-bold text-center'}>Timeline</h3>
+            <h2 className={'text-2xl md:text-3xl xl:text-4xl 2xl:text-5xl pb-8 font-bold text-center'}>Timeline</h2>
             <VerticalTimeline>
                 {timeline.map((occupation, index) => (
                     <VerticalTimelineElement
@@ -33,7 +33,7 @@ function Resume() {
                                 <div className={`h-8 w-8 rounded-full ${occupation.type === 'experience' ? 'bg-purple-500' : 'bg-blue-500'} border-4 border-white`}/>
                             </div>}>
                         <div key={index}>
-                            <h4 className={'text-xl mt-4 font-bold'}>{occupation.title}</h4>
+                            <h3 className={'text-xl md:text-2xl xl:text-3xl 2xl:text-4xl mt-4 font-bold'}>{occupation.title}</h3>
                             <p className={'text-base font-bold'}>{occupation.organization}</p>
                             <p className={'mt-1 text-gray-400 text-xs!'}>{occupation.display_date}</p>
                             <ul className={'mt-4 list-disc list-inside pl-5'}>
