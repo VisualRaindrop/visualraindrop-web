@@ -52,4 +52,4 @@ jobs:
 
       - name: Frontend build test
         run: |
-          docker compose -f docker-compose.prod.yml build fronten
+          docker compose -f docker-compose.prod.yml build frontend
