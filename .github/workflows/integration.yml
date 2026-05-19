@@ -3,10 +3,12 @@ name: Integration
 on:
   push:
     branches:
-      - develop
+      - "**"
   pull_request:
     branches:
       - main
+    types: [opened, synchronize, reopened]
+  workflow_dispatch:
 
 jobs:
   check:
