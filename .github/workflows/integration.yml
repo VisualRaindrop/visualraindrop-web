@@ -11,7 +11,30 @@ on:
   workflow_dispatch:
 
 jobs:
-  check:
+  quick-check:
+    if: github.event_name == 'push' || github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Frontend check
+        run: |
+          cd frontend
+          npm ci
+          npm run build
+
+      - name: Backend check
+        run: |
+          cd backend
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          python manage.py check
+
+  integration-check:
+    if: github.event_name == 'pull_request'
+      || github.ref == 'refs/heads/main'
+      || github.event_name == 'workflow_dispatch'
     runs-on: ubuntu-latest
 
     steps:
@@ -23,21 +46,21 @@ jobs:
           POSTGRES_DB=visualraindrop
           POSTGRES_USER=visualraindrop_user
           POSTGRES_PASSWORD=testpassword
-      
+
           DATABASE_NAME=visualraindrop
           DATABASE_USER=visualraindrop_user
           DATABASE_PASSWORD=testpassword
           DATABASE_HOST=postgres
           DATABASE_PORT=5432
-      
+
           DJANGO_SECRET_KEY=test-secret-key
           DJANGO_DEBUG=False
           DJANGO_ALLOWED_HOSTS=localhost,127.0.0.1
           DJANGO_CORS_ALLOWED_ORIGINS=http://localhost:5173
           DJANGO_CSRF_TRUSTED_ORIGINS=http://localhost:5173
-      
+
           VITE_API_BASE=http://localhost:8000/api
-      
+
           EMAIL_HOST=smtp.gmail.com
           EMAIL_PORT=587
           EMAIL_USE_TLS=True
@@ -47,11 +70,14 @@ jobs:
           CONTACT_EMAIL=test@example.com
           EOF
 
-      - name: Backend checks
+      - name: Build backend image
         run: |
           docker compose -f docker-compose.prod.yml build backend
-          docker compose -f docker-compose.prod.yml run --rm backend python manage.py check
 
-      - name: Frontend build test
+      - name: Build frontend image
         run: |
           docker compose -f docker-compose.prod.yml build frontend
+
+      - name: Django check in container
+        run: |
+          docker compose -f docker-compose.prod.yml run --rm backend python manage.py check
