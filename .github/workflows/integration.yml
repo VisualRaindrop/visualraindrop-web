@@ -1,0 +1,23 @@
+name: integration.yml
+on:
+  push:
+    branches:
+      - develop
+    pull_request:
+      branches:
+        -main
+jobs:
+  check:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Backend checks
+        run: |
+          docker compose -f docker-compose.prod.yml build backend
+          docker compose -f docker-compose.prod.yml run --rm backend python manage.py check
+
+      - name: Frontend build test
+        run: |
+          docker compose -f docker-compose.prod.yml build frontend
