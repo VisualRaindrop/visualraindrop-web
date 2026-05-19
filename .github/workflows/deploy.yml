@@ -1,0 +1,22 @@
+name: Deploy to Server
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: [self-hosted, linux-deploy]
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Deploy website
+        run: |
+          cd /mnt/user/appdata/visualraindrop
+          git pull origin main
+          docker compose -f docker-compose.prod.yml up -d --build
+          docker compose -f docker-compose.prod.yml exec -T backend python manage.py migrate
