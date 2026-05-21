@@ -35,7 +35,7 @@ function Resume() {
                         <div key={index}>
                             <h3 className={'text-xl md:text-2xl xl:text-3xl 2xl:text-4xl mt-4 font-bold'}>{occupation.title}</h3>
                             <p className={'text-base font-bold'}>{occupation.organization}</p>
-                            <p className={'mt-1 text-gray-400 text-xs!'}>{occupation.display_date}</p>
+                            <p className={'mt-1  text-gray-600dark:text-gray-400 text-xs!'}>{occupation.display_date}</p>
                             <ul className={'mt-4 list-disc list-inside pl-5'}>
                                 {occupation.description.split('\n').map((item) => (
                                     <li className={'mt-4 pl-5'}>{item}</li>
