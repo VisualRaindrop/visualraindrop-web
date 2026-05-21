@@ -7,29 +7,10 @@ on:
   pull_request:
     branches:
       - main
+    types: [opened, synchronize, reopened]
   workflow_dispatch:
 
 jobs:
-  quick-check:
-    if: github.event_name == 'push' || github.event_name == 'workflow_dispatch'
-    runs-on: ubuntu-latest
-
-    steps:
-      - uses: actions/checkout@v4
-
-      - name: Frontend check
-        run: |
-          cd frontend
-          npm ci
-          npm run build
-
-      - name: Backend check
-        run: |
-          cd backend
-          python -m pip install --upgrade pip
-          pip install -r requirements.txt
-          python manage.py check
-
   integration-check:
     if:  (github.event_name == 'pull_request' && github.event.pull_request.head.repo.full_name == github.repository)
     runs-on: ubuntu-latest
