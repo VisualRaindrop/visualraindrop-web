@@ -1,0 +1,28 @@
+name: Quick Check
+
+on:
+  push:
+    branches:
+      - '**'
+  workflow_dispatch:
+
+jobs:
+  quick-check:
+    if: github.event_name == 'push' || github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Frontend check
+        run: |
+          cd frontend
+          npm ci
+          npm run build
+
+      - name: Backend check
+        run: |
+          cd backend
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          python manage.py check
