@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { get_timeline  } from "../api/Resume_Api";
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
+import '../styles/Resume.css'
 
 interface Timeline {
     type: 'experience' | 'education';
@@ -22,29 +23,35 @@ function Resume() {
     return(
         <section className={'min-h-screen'}>
             <h2 className={'text-2xl md:text-3xl xl:text-4xl 2xl:text-5xl pb-8 font-bold text-center'}>Timeline</h2>
-            <VerticalTimeline>
-                {timeline.map((occupation, index) => (
-                    <VerticalTimelineElement
-                        key={index}
-                        className="vertical-timeline-element--work dark:bg-black dark:text-white"
-                        contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)'}}
-                        iconStyle={{ background: 'transparent', boxShadow: 'none'}}
-                        icon = { <div className={'flex h-full w-full items-center justify-center'}>
-                                <div className={`h-8 w-8 rounded-full ${occupation.type === 'experience' ? 'bg-purple-500' : 'bg-blue-500'} border-4 border-black dark:border-white`}/>
-                            </div>}>
-                        <div>
-                            <h3 className={'text-xl md:text-2xl xl:text-3xl 2xl:text-4xl font-bold'}>{occupation.title}</h3>
-                            <p className={'text-base font-bold'}>{occupation.organization}</p>
-                            <p className={'mt-1 text-gray-600 dark:text-gray-400 text-xs'}>{occupation.display_date}</p>
-                            <ul className={'mt-4 list-disc list-inside pl-5'}>
-                                {occupation.description.split('\n').map((item) => (
-                                    <li className={'mt-4 pl-5'}>{item}</li>
-                                    ))}
-                            </ul>
-                        </div>
-                  </VerticalTimelineElement>
-                ))}
-            </VerticalTimeline>
+            <div className="mx-auto max-w-7xl">
+                <VerticalTimeline className="custom-line ">
+                    {timeline.map((occupation, index) => (
+                        <VerticalTimelineElement
+                            key={index}
+                            className="vertical-timeline-element--work "
+                            iconStyle={{ background: occupation.type === 'experience' ? '#a855f7' : '#3b82f6',
+                                boxShadow: '0 0 0 4px var(--timeline-border-color, #000000)',
+                            }}>
+                            <h3 className='text-xl md:text-2xl xl:text-3xl 2xl:text-4xl font-bold text-left m-0 p-0 leading-tight'>
+                                    {occupation.title}
+                            </h3>
+                            <p className='text-base font-bold text-left mt-2 text-purple-600 dark:text-purple-400'>
+                                {occupation.organization}
+                            </p>
+                            <p className='mt-1 text-slate-500 dark:text-slate-400 text-xs font-medium text-left'>
+                                {occupation.display_date}
+                            </p>
+                            <ul className='mt-4 list-disc list-outside pl-5 text-left text-slate-700 dark:text-slate-300 space-y-2'>
+                                {occupation.description.split('\n').map((item, i) => (
+                                <li key={i} className='text-sm md:text-base leading-relaxed pl-1'>
+                                    {item}
+                                </li>
+                            ))}
+                        </ul>
+                      </VerticalTimelineElement>
+                    ))}
+                </VerticalTimeline>
+            </div>
         </section>
     )
 }

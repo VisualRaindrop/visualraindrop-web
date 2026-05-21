@@ -3,16 +3,14 @@ name: Integration
 on:
   push:
     branches:
-      - "**"
+      - main
   pull_request:
     branches:
       - main
-    types: [opened, synchronize, reopened]
   workflow_dispatch:
 
 jobs:
   quick-check:
-    if: github.event_name == 'push' || github.event_name == 'workflow_dispatch'
     runs-on: ubuntu-latest
 
     steps:
@@ -32,9 +30,9 @@ jobs:
           python manage.py check
 
   integration-check:
-    if: github.event_name == 'pull_request'
-      || github.ref == 'refs/heads/main'
-      || github.event_name == 'workflow_dispatch'
+    if: |
+      github.event_name == 'push' || 
+      (github.event_name == 'pull_request' && github.event.pull_request.head.repo.full_name == github.repository)
     runs-on: ubuntu-latest
 
     steps:
