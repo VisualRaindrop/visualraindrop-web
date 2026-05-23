@@ -16,22 +16,25 @@ interface Timeline {
 
 function Resume() {
     const [timeline, set_timeline] = useState<Timeline[]>([]);
+    const repeat_animation = {
+        triggerOnce: false,
+    }
 
     useEffect(() => {
         get_timeline().then(timeline => set_timeline(timeline));
     }, []);
     return(
-        <section className={'min-h-screen'}>
+        <section id={'Resume'} className={'min-h-screen scroll-mt-28'}>
             <h2 className={'text-2xl md:text-3xl xl:text-4xl 2xl:text-5xl pb-8 font-bold text-center'}>Timeline</h2>
             <div className="mx-auto max-w-7xl">
-                <VerticalTimeline className="custom-line ">
+                <VerticalTimeline className="custom-line">
                     {timeline.map((occupation, index) => (
                         <VerticalTimelineElement
                             key={index}
-                            className="vertical-timeline-element--work "
+                            className="vertical-timeline-element--work"
                             iconStyle={{ background: occupation.type === 'experience' ? '#a855f7' : '#3b82f6',
-                                boxShadow: '0 0 0 4px var(--timeline-border-color, #000000)',
-                            }}>
+                                boxShadow: '0 0 0 4px var(--timeline-border-color, #000000)',}}
+                            intersectionObserverProps={repeat_animation}>
                             <h3 className='text-xl md:text-2xl xl:text-3xl 2xl:text-4xl font-bold text-left m-0 p-0 leading-tight'>
                                     {occupation.title}
                             </h3>
