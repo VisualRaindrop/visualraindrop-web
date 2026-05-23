@@ -1,4 +1,5 @@
 import {NavLink} from "react-router"
+import ThemeToggle from "./Theme_Switch";
 
 function Navbar () {
     return (
@@ -9,6 +10,7 @@ function Navbar () {
                 </a>
                     <div className={'flex items-center gap-10 text-sm font-semibold tracking-tight'}>
                         <NavLink to={'/'} className={'hover:text-purple-500'}>Home</NavLink>
+                        <ThemeToggle />
                     </div>
             </div>
         </nav>
