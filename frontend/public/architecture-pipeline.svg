@@ -1,0 +1,231 @@
+<svg width="1264" height="272" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     xml:space="preserve" overflow="hidden"><defs><clipPath id="clip0"><rect x="8" y="224" width="1264" height="272"/></clipPath></defs>
+    <g clip-path="url(#clip0)" transform="translate(-8 -224)"><text fill="#F5F1EA" fill-opacity="0.583" font-family="Courier New,Courier New_MSFontService,sans-serif"
+              font-weight="400" font-size="14" transform="matrix(0.734884 0 0 0.735189 565.568 273)">.</text>
+        <path d="M234.112 245.819 259.833 245.819" stroke="#7CA2E5" stroke-width="1.76372" stroke-opacity="0.583"
+              fill="none" transform="matrix(1 0 0 1.00042 -65.4884 121.207)"/>
+        <path d="M259.833 245.819 252.484 242.144 252.484 249.493Z" fill="#7CA2E5" fill-opacity="0.808"
+              transform="matrix(1 0 0 1.00042 -65.4884 121.207)"/>
+        <path d="M417.517 245.819 443.238 245.819" stroke="#BC4F39" stroke-width="1.76372" stroke-opacity="0.583"
+              fill="none" transform="matrix(1 0 0 1.00042 -65.4884 121.207)"/>
+        <path d="M443.238 245.819 435.889 242.144 435.889 249.493Z" fill="#BC4F39" fill-opacity="0.808"
+              transform="matrix(1 0 0 1.00042 -65.4884 121.207)"/>
+        <path d="M600.922 245.819 626.643 245.819" stroke="#7CA2E5" stroke-width="1.76372" stroke-opacity="0.583"
+              fill="none" transform="matrix(1 0 0 1.00042 -65.4884 121.207)"/>
+        <path d="M626.643 245.819 619.294 242.144 619.294 249.493Z" fill="#7CA2E5" fill-opacity="0.808"
+              transform="matrix(1 0 0 1.00042 -65.4884 121.207)"/>
+        <path d="M784.334 245.819 810.055 245.819" stroke="#BC4F39" stroke-width="1.76372" stroke-opacity="0.583"
+              fill="none" transform="matrix(1 0 0 1.00042 -65.4884 121.207)"/>
+        <path d="M810.055 245.819 802.706 242.144 802.706 249.493Z" fill="#BC4F39" fill-opacity="0.808"
+              transform="matrix(1 0 0 1.00042 -65.4884 121.207)"/>
+        <path d="M967.739 245.819 993.46 245.819" stroke="#7CA2E5" stroke-width="1.76372" stroke-opacity="0.583"
+              fill="none" transform="matrix(1 0 0 1.00042 -65.4884 121.207)"/>
+        <path d="M993.46 245.819 986.111 242.144 986.111 249.493Z" fill="#7CA2E5" fill-opacity="0.808"
+              transform="matrix(1 0 0 1.00042 -65.4884 121.207)"/>
+        <path d="M1151.14 245.819 1176.86 245.819" stroke="#BC4F39" stroke-width="1.76372" stroke-opacity="0.583"
+              fill="none" transform="matrix(1 0 0 1.00042 -65.4884 121.207)"/>
+        <path d="M1176.86 245.819 1169.52 242.144 1169.52 249.493Z" fill="#BC4F39" fill-opacity="0.808"
+              transform="matrix(1 0 0 1.00042 -65.4884 121.207)"/>
+        <path d="M80.1023 176.372 230.438 176.372C232.887 176.372 234.112 177.597 234.112 180.047L234.112 311.591C234.112 314.04 232.887 315.265 230.438 315.265L80.1023 315.265C77.653 315.265 76.4279 314.04 76.4279 311.591L76.4279 180.047C76.4279 177.597 77.653 176.372 80.1023 176.372Z"
+              stroke="#BC4F39" stroke-width="1.46977" stroke-opacity="0.62" fill="#05070D" fill-opacity="0.103"
+              transform="matrix(1 0 0 1.00042 -65.4884 121.207)"/>
+        <path d="M76.4279 176.372 234.112 176.372 234.112 213.116 76.4279 213.116Z" fill="#BC4F39" fill-opacity="0.075"
+              transform="matrix(1 0 0 1.00042 -65.4884 121.207)"/>
+        <path d="M76.4279 213.116 234.112 213.116" stroke="#BC4F39" stroke-width="1.46977" stroke-opacity="0.808"
+              fill="none" transform="matrix(1 0 0 1.00042 -65.4884 121.207)"/>
+        <text fill="#BC4F39" fill-opacity="0.94" font-family="Courier New,Courier New_MSFontService,sans-serif"
+              font-weight="700" font-size="14" transform="matrix(0.734884 0 0 0.735189 24.1674 320)">01</text>
+        <text fill="#F5F1EA" fill-opacity="0.846" font-family="Courier New,Courier New_MSFontService,sans-serif"
+              font-weight="700" font-size="14" transform="matrix(0.734884 0 0 0.735189 108.576 320)">Acquire</text>
+        <text fill="#F5F1EA" fill-opacity="0.395" font-family="Courier New,Courier New_MSFontService,sans-serif"
+              font-weight="400" font-size="11" transform="matrix(0.734884 0 0 0.735189 24.1674 362)">WRITES</text>
+        <text fill="#BC4F39" fill-opacity="0.902" font-family="Courier New,Courier New_MSFontService,sans-serif"
+              font-weight="700" font-size="14" transform="matrix(0.734884 0 0 0.735189 24.1674 384)">source</text>
+        <text fill="#BC4F39" fill-opacity="0.902" font-family="Courier New,Courier New_MSFontService,sans-serif"
+              font-weight="700" font-size="14" transform="matrix(0.734884 0 0 0.735189 64.2981 384)">_</text>
+        <text fill="#BC4F39" fill-opacity="0.902" font-family="Courier New,Courier New_MSFontService,sans-serif"
+              font-weight="700" font-size="14" transform="matrix(0.734884 0 0 0.735189 70.9866 384)">images</text>
+        <text fill="#BC4F39" fill-opacity="0.902" font-family="Courier New,Courier New_MSFontService,sans-serif"
+              font-weight="700" font-size="14" transform="matrix(0.734884 0 0 0.735189 111.117 384)">/</text>
+        <path d="M89.6558 279.256 220.884 279.256" stroke="#F5F1EA" stroke-width="0.734884" stroke-opacity="0.122"
+              fill="none" transform="matrix(1 0 0 1.00042 -65.4884 121.207)"/>
+        <text fill="#F5F1EA" fill-opacity="0.62" font-family="Courier New,Courier New_MSFontService,sans-serif"
+              font-weight="400" font-size="11" transform="matrix(0.734884 0 0 0.735189 24.1674 422)">IMG </text>
+        <text fill="#F5F1EA" fill-opacity="0.62" font-family="Courier New,Courier New_MSFontService,sans-serif"
+              font-weight="400" font-size="11" transform="matrix(0.734884 0 0 0.735189 45.1148 422)">+ </text>
+        <text fill="#F5F1EA" fill-opacity="0.62" font-family="Courier New,Courier New_MSFontService,sans-serif"
+              font-weight="400" font-size="11" transform="matrix(0.734884 0 0 0.735189 55.3312 422)">XML pair</text>
+        <path d="M263.507 176.372 413.842 176.372C416.292 176.372 417.517 177.597 417.517 180.047L417.517 311.591C417.517 314.04 416.292 315.265 413.842 315.265L263.507 315.265C261.058 315.265 259.833 314.04 259.833 311.591L259.833 180.047C259.833 177.597 261.058 176.372 263.507 176.372Z"
+              stroke="#7CA2E5" stroke-width="1.46977" stroke-opacity="0.62" fill="#05070D" fill-opacity="0.103"
+              transform="matrix(1 0 0 1.00042 -65.4884 121.207)"/>
+        <path d="M259.833 176.372 417.517 176.372 417.517 213.116 259.833 213.116Z" fill="#7CA2E5" fill-opacity="0.075"
+              transform="matrix(1 0 0 1.00042 -65.4884 121.207)"/>
+        <path d="M259.833 213.116 417.517 213.116" stroke="#7CA2E5" stroke-width="1.46977" stroke-opacity="0.808"
+              fill="none" transform="matrix(1 0 0 1.00042 -65.4884 121.207)"/>
+        <text fill="#7CA2E5" fill-opacity="0.94" font-family="Courier New,Courier New_MSFontService,sans-serif"
+              font-weight="700" font-size="14" transform="matrix(0.734884 0 0 0.735189 207.572 320)">02</text>
+        <text fill="#F5F1EA" fill-opacity="0.846" font-family="Courier New,Courier New_MSFontService,sans-serif"
+              font-weight="700" font-size="14" transform="matrix(0.734884 0 0 0.735189 285.293 320)">Geometry</text>
+        <text fill="#F5F1EA" fill-opacity="0.395" font-family="Courier New,Courier New_MSFontService,sans-serif"
+              font-weight="400" font-size="11" transform="matrix(0.734884 0 0 0.735189 207.572 362)">WRITES</text>
+        <text fill="#7CA2E5" fill-opacity="0.902" font-family="Courier New,Courier New_MSFontService,sans-serif"
+              font-weight="700" font-size="14"
+              transform="matrix(0.734884 0 0 0.735189 207.572 384)">SPICE context</text>
+        <path d="M273.061 279.256 404.289 279.256" stroke="#F5F1EA" stroke-width="0.734884" stroke-opacity="0.122"
+              fill="none" transform="matrix(1 0 0 1.00042 -65.4884 121.207)"/>
+        <text fill="#F5F1EA" fill-opacity="0.62" font-family="Courier New,Courier New_MSFontService,sans-serif"
+              font-weight="400" font-size="11" transform="matrix(0.734884 0 0 0.735189 207.572 422)">camera </text>
+        <text fill="#F5F1EA" fill-opacity="0.62" font-family="Courier New,Courier New_MSFontService,sans-serif"
+              font-weight="400" font-size="11" transform="matrix(0.734884 0 0 0.735189 244.616 422)">+ </text>
+        <text fill="#F5F1EA" fill-opacity="0.62" font-family="Courier New,Courier New_MSFontService,sans-serif"
+              font-weight="400" font-size="11" transform="matrix(0.734884 0 0 0.735189 254.833 422)">frame lookup</text>
+        <path d="M446.912 176.372 597.247 176.372C599.697 176.372 600.922 177.597 600.922 180.047L600.922 311.591C600.922 314.04 599.697 315.265 597.247 315.265L446.912 315.265C444.463 315.265 443.238 314.04 443.238 311.591L443.238 180.047C443.238 177.597 444.463 176.372 446.912 176.372Z"
+              stroke="#7CA2E5" stroke-width="1.46977" stroke-opacity="0.62" fill="#05070D" fill-opacity="0.103"
+              transform="matrix(1 0 0 1.00042 -65.4884 121.207)"/>
+        <path d="M443.238 176.372 600.922 176.372 600.922 213.116 443.238 213.116Z" fill="#7CA2E5" fill-opacity="0.075"
+              transform="matrix(1 0 0 1.00042 -65.4884 121.207)"/>
+        <path d="M443.238 213.116 600.922 213.116" stroke="#7CA2E5" stroke-width="1.46977" stroke-opacity="0.808"
+              fill="none" transform="matrix(1 0 0 1.00042 -65.4884 121.207)"/>
+        <text fill="#7CA2E5" fill-opacity="0.94" font-family="Courier New,Courier New_MSFontService,sans-serif"
+              font-weight="700" font-size="14" transform="matrix(0.734884 0 0 0.735189 390.977 320)">03</text>
+        <text fill="#F5F1EA" fill-opacity="0.846" font-family="Courier New,Courier New_MSFontService,sans-serif"
+              font-weight="700" font-size="14" transform="matrix(0.734884 0 0 0.735189 495.452 320)">Tile</text>
+        <text fill="#F5F1EA" fill-opacity="0.395" font-family="Courier New,Courier New_MSFontService,sans-serif"
+              font-weight="400" font-size="11" transform="matrix(0.734884 0 0 0.735189 390.977 362)">WRITES</text>
+        <text fill="#7CA2E5" fill-opacity="0.902" font-family="Courier New,Courier New_MSFontService,sans-serif"
+              font-weight="700" font-size="14" transform="matrix(0.734884 0 0 0.735189 390.977 384)">raw</text>
+        <text fill="#7CA2E5" fill-opacity="0.902" font-family="Courier New,Courier New_MSFontService,sans-serif"
+              font-weight="700" font-size="14" transform="matrix(0.734884 0 0 0.735189 411.043 384)">_</text>
+        <text fill="#7CA2E5" fill-opacity="0.902" font-family="Courier New,Courier New_MSFontService,sans-serif"
+              font-weight="700" font-size="14" transform="matrix(0.734884 0 0 0.735189 417.731 384)">tiles</text>
+        <text fill="#7CA2E5" fill-opacity="0.902" font-family="Courier New,Courier New_MSFontService,sans-serif"
+              font-weight="700" font-size="14" transform="matrix(0.734884 0 0 0.735189 451.173 384)">/</text>
+        <path d="M456.466 279.256 587.694 279.256" stroke="#F5F1EA" stroke-width="0.734884" stroke-opacity="0.122"
+              fill="none" transform="matrix(1 0 0 1.00042 -65.4884 121.207)"/>
+        <text fill="#F5F1EA" fill-opacity="0.62" font-family="Courier New,Courier New_MSFontService,sans-serif"
+              font-weight="400" font-size="11" transform="matrix(0.734884 0 0 0.735189 390.977 422)">1024</text>
+        <text fill="#F5F1EA" fill-opacity="0.62" font-family="Courier New,Courier New_MSFontService,sans-serif"
+              font-weight="400" font-size="11" transform="matrix(0.734884 0 0 0.735189 412.439 422)">px PNG tiles</text>
+        <path d="M630.317 176.372 780.66 176.372C783.107 176.372 784.334 177.597 784.334 180.047L784.334 311.591C784.334 314.04 783.107 315.265 780.66 315.265L630.317 315.265C627.868 315.265 626.643 314.04 626.643 311.591L626.643 180.047C626.643 177.597 627.868 176.372 630.317 176.372Z"
+              stroke="#76E0C3" stroke-width="1.46977" stroke-opacity="0.62" fill="#05070D" fill-opacity="0.103"
+              transform="matrix(1 0 0 1.00042 -65.4884 121.207)"/>
+        <path d="M626.643 176.372 784.327 176.372 784.327 213.116 626.643 213.116Z" fill="#76E0C3" fill-opacity="0.075"
+              transform="matrix(1 0 0 1.00042 -65.4884 121.207)"/>
+        <path d="M626.643 213.116 784.334 213.116" stroke="#76E0C3" stroke-width="1.46977" stroke-opacity="0.808"
+              fill="none" transform="matrix(1 0 0 1.00042 -65.4884 121.207)"/>
+        <text fill="#76E0C3" fill-opacity="0.94" font-family="Courier New,Courier New_MSFontService,sans-serif"
+              font-weight="700" font-size="14" transform="matrix(0.734884 0 0 0.735189 574.382 320)">03</text>
+        <text fill="#76E0C3" fill-opacity="0.94" font-family="Courier New,Courier New_MSFontService,sans-serif"
+              font-weight="700" font-size="14" transform="matrix(0.734884 0 0 0.735189 587.759 320)">B</text>
+        <text fill="#F5F1EA" fill-opacity="0.846" font-family="Courier New,Courier New_MSFontService,sans-serif"
+              font-weight="700" font-size="14" transform="matrix(0.734884 0 0 0.735189 645.422 320)">Geolocate</text>
+        <text fill="#F5F1EA" fill-opacity="0.395" font-family="Courier New,Courier New_MSFontService,sans-serif"
+              font-weight="400" font-size="11" transform="matrix(0.734884 0 0 0.735189 574.382 362)">WRITES</text>
+        <text fill="#76E0C3" fill-opacity="0.902" font-family="Courier New,Courier New_MSFontService,sans-serif"
+              font-weight="700" font-size="14" transform="matrix(0.734884 0 0 0.735189 574.382 384)">tile</text>
+        <text fill="#76E0C3" fill-opacity="0.902" font-family="Courier New,Courier New_MSFontService,sans-serif"
+              font-weight="700" font-size="14" transform="matrix(0.734884 0 0 0.735189 601.136 384)">_</text>
+        <text fill="#76E0C3" fill-opacity="0.902" font-family="Courier New,Courier New_MSFontService,sans-serif"
+              font-weight="700" font-size="14" transform="matrix(0.734884 0 0 0.735189 607.824 384)">metadata</text>
+        <text fill="#76E0C3" fill-opacity="0.902" font-family="Courier New,Courier New_MSFontService,sans-serif"
+              font-weight="700" font-size="14" transform="matrix(0.734884 0 0 0.735189 661.332 384)">/</text>
+        <path d="M639.871 279.256 771.106 279.256" stroke="#F5F1EA" stroke-width="0.734884" stroke-opacity="0.122"
+              fill="none" transform="matrix(1 0 0 1.00042 -65.4884 121.207)"/>
+        <text fill="#F5F1EA" fill-opacity="0.62" font-family="Courier New,Courier New_MSFontService,sans-serif"
+              font-weight="400" font-size="11" transform="matrix(0.734884 0 0 0.735189 574.382 422)">corner lat</text>
+        <text fill="#F5F1EA" fill-opacity="0.62" font-family="Courier New,Courier New_MSFontService,sans-serif"
+              font-weight="400" font-size="11" transform="matrix(0.734884 0 0 0.735189 627.522 422)">/</text>
+        <text fill="#F5F1EA" fill-opacity="0.62" font-family="Courier New,Courier New_MSFontService,sans-serif"
+              font-weight="400" font-size="11" transform="matrix(0.734884 0 0 0.735189 632.888 422)">lon JSON</text>
+        <path d="M813.729 176.372 964.065 176.372C966.512 176.372 967.739 177.597 967.739 180.047L967.739 311.591C967.739 314.04 966.512 315.265 964.065 315.265L813.729 315.265C811.282 315.265 810.055 314.04 810.055 311.591L810.055 180.047C810.055 177.597 811.282 176.372 813.729 176.372Z"
+              stroke="#BC4F39" stroke-width="1.46977" stroke-opacity="0.62" fill="#05070D" fill-opacity="0.103"
+              transform="matrix(1 0 0 1.00042 -65.4884 121.207)"/>
+        <path d="M810.055 176.372 967.739 176.372 967.739 213.116 810.055 213.116Z" fill="#BC4F39" fill-opacity="0.075"
+              transform="matrix(1 0 0 1.00042 -65.4884 121.207)"/>
+        <path d="M810.055 213.116 967.739 213.116" stroke="#BC4F39" stroke-width="1.46977" stroke-opacity="0.808"
+              fill="none" transform="matrix(1 0 0 1.00042 -65.4884 121.207)"/>
+        <text fill="#BC4F39" fill-opacity="0.94" font-family="Courier New,Courier New_MSFontService,sans-serif"
+              font-weight="700" font-size="14" transform="matrix(0.734884 0 0 0.735189 757.794 320)">04</text>
+        <text fill="#F5F1EA" fill-opacity="0.846" font-family="Courier New,Courier New_MSFontService,sans-serif"
+              font-weight="700" font-size="14" transform="matrix(0.734884 0 0 0.735189 835.515 320)">Annotate</text>
+        <text fill="#F5F1EA" fill-opacity="0.395" font-family="Courier New,Courier New_MSFontService,sans-serif"
+              font-weight="400" font-size="11" transform="matrix(0.734884 0 0 0.735189 757.794 362)">WRITES</text>
+        <text fill="#BC4F39" fill-opacity="0.902" font-family="Courier New,Courier New_MSFontService,sans-serif"
+              font-weight="700" font-size="14" transform="matrix(0.734884 0 0 0.735189 757.794 384)">annotations</text>
+        <text fill="#BC4F39" fill-opacity="0.902" font-family="Courier New,Courier New_MSFontService,sans-serif"
+              font-weight="700" font-size="14" transform="matrix(0.734884 0 0 0.735189 831.367 384)">_</text>
+        <text fill="#BC4F39" fill-opacity="0.902" font-family="Courier New,Courier New_MSFontService,sans-serif"
+              font-weight="700" font-size="14" transform="matrix(0.734884 0 0 0.735189 838.056 384)">coco</text>
+        <text fill="#BC4F39" fill-opacity="0.902" font-family="Courier New,Courier New_MSFontService,sans-serif"
+              font-weight="700" font-size="14" transform="matrix(0.734884 0 0 0.735189 864.81 384)">.</text>
+        <text fill="#BC4F39" fill-opacity="0.902" font-family="Courier New,Courier New_MSFontService,sans-serif"
+              font-weight="700" font-size="14" transform="matrix(0.734884 0 0 0.735189 871.498 384)">json</text>
+        <path d="M823.283 279.256 954.511 279.256" stroke="#F5F1EA" stroke-width="0.734884" stroke-opacity="0.122"
+              fill="none" transform="matrix(1 0 0 1.00042 -65.4884 121.207)"/>
+        <text fill="#F5F1EA" fill-opacity="0.62" font-family="Courier New,Courier New_MSFontService,sans-serif"
+              font-weight="400" font-size="11"
+              transform="matrix(0.734884 0 0 0.735189 757.794 422)">Roboflow labels</text>
+        <path d="M997.134 176.372 1147.47 176.372C1149.92 176.372 1151.14 177.597 1151.14 180.047L1151.14 311.591C1151.14 314.04 1149.92 315.265 1147.47 315.265L997.134 315.265C994.687 315.265 993.46 314.04 993.46 311.591L993.46 180.047C993.46 177.597 994.687 176.372 997.134 176.372Z"
+              stroke="#7CA2E5" stroke-width="1.46977" stroke-opacity="0.62" fill="#05070D" fill-opacity="0.103"
+              transform="matrix(1 0 0 1.00042 -65.4884 121.207)"/>
+        <path d="M993.46 176.372 1151.14 176.372 1151.14 213.116 993.46 213.116Z" fill="#7CA2E5" fill-opacity="0.075"
+              transform="matrix(1 0 0 1.00042 -65.4884 121.207)"/>
+        <path d="M993.46 213.116 1151.14 213.116" stroke="#7CA2E5" stroke-width="1.46977" stroke-opacity="0.808"
+              fill="none" transform="matrix(1 0 0 1.00042 -65.4884 121.207)"/>
+        <text fill="#7CA2E5" fill-opacity="0.94" font-family="Courier New,Courier New_MSFontService,sans-serif"
+              font-weight="700" font-size="14" transform="matrix(0.734884 0 0 0.735189 941.199 320)">05</text>
+        <text fill="#F5F1EA" fill-opacity="0.846" font-family="Courier New,Courier New_MSFontService,sans-serif"
+              font-weight="700" font-size="14" transform="matrix(0.734884 0 0 0.735189 1038.99 320)">Train</text>
+        <text fill="#F5F1EA" fill-opacity="0.395" font-family="Courier New,Courier New_MSFontService,sans-serif"
+              font-weight="400" font-size="11" transform="matrix(0.734884 0 0 0.735189 941.199 362)">WRITES</text>
+        <text fill="#7CA2E5" fill-opacity="0.902" font-family="Courier New,Courier New_MSFontService,sans-serif"
+              font-weight="700" font-size="14" transform="matrix(0.734884 0 0 0.735189 941.199 384)">moon</text>
+        <text fill="#7CA2E5" fill-opacity="0.902" font-family="Courier New,Courier New_MSFontService,sans-serif"
+              font-weight="700" font-size="14" transform="matrix(0.734884 0 0 0.735189 967.953 384)">_</text>
+        <text fill="#7CA2E5" fill-opacity="0.902" font-family="Courier New,Courier New_MSFontService,sans-serif"
+              font-weight="700" font-size="14" transform="matrix(0.734884 0 0 0.735189 974.642 384)">dataset</text>
+        <text fill="#7CA2E5" fill-opacity="0.902" font-family="Courier New,Courier New_MSFontService,sans-serif"
+              font-weight="700" font-size="14" transform="matrix(0.734884 0 0 0.735189 1021.46 384)">/ + </text>
+        <text fill="#7CA2E5" fill-opacity="0.902" font-family="Courier New,Courier New_MSFontService,sans-serif"
+              font-weight="700" font-size="14" transform="matrix(0.734884 0 0 0.735189 1047.19 384)">runs</text>
+        <text fill="#7CA2E5" fill-opacity="0.902" font-family="Courier New,Courier New_MSFontService,sans-serif"
+              font-weight="700" font-size="14" transform="matrix(0.734884 0 0 0.735189 1073.94 384)">/</text>
+        <path d="M1006.69 279.256 1137.92 279.256" stroke="#F5F1EA" stroke-width="0.734884" stroke-opacity="0.122"
+              fill="none" transform="matrix(1 0 0 1.00042 -65.4884 121.207)"/>
+        <text fill="#F5F1EA" fill-opacity="0.62" font-family="Courier New,Courier New_MSFontService,sans-serif"
+              font-weight="400" font-size="11" transform="matrix(0.734884 0 0 0.735189 941.199 422)">YOLO </text>
+        <text fill="#F5F1EA" fill-opacity="0.62" font-family="Courier New,Courier New_MSFontService,sans-serif"
+              font-weight="400" font-size="11" transform="matrix(0.734884 0 0 0.735189 967.512 422)">+ </text>
+        <text fill="#F5F1EA" fill-opacity="0.62" font-family="Courier New,Courier New_MSFontService,sans-serif"
+              font-weight="400" font-size="11" transform="matrix(0.734884 0 0 0.735189 977.729 422)">Detectron</text>
+        <text fill="#F5F1EA" fill-opacity="0.62" font-family="Courier New,Courier New_MSFontService,sans-serif"
+              font-weight="400" font-size="11" transform="matrix(0.734884 0 0 0.735189 1026.02 422)">2 </text>
+        <text fill="#F5F1EA" fill-opacity="0.62" font-family="Courier New,Courier New_MSFontService,sans-serif"
+              font-weight="400" font-size="11" transform="matrix(0.734884 0 0 0.735189 1036.23 422)">weights</text>
+        <path d="M1180.54 176.372 1330.87 176.372C1333.32 176.372 1334.55 177.597 1334.55 180.047L1334.55 311.591C1334.55 314.04 1333.32 315.265 1330.87 315.265L1180.54 315.265C1178.09 315.265 1176.86 314.04 1176.86 311.591L1176.86 180.047C1176.86 177.597 1178.09 176.372 1180.54 176.372Z"
+              stroke="#BC4F39" stroke-width="1.46977" stroke-opacity="0.62" fill="#05070D" fill-opacity="0.103"
+              transform="matrix(1 0 0 1.00042 -65.4884 121.207)"/>
+        <path d="M1176.86 176.372 1334.55 176.372 1334.55 213.116 1176.86 213.116Z" fill="#BC4F39" fill-opacity="0.075"
+              transform="matrix(1 0 0 1.00042 -65.4884 121.207)"/>
+        <path d="M1176.86 213.116 1334.55 213.116" stroke="#BC4F39" stroke-width="1.46977" stroke-opacity="0.808"
+              fill="none" transform="matrix(1 0 0 1.00042 -65.4884 121.207)"/>
+        <text fill="#BC4F39" fill-opacity="0.94" font-family="Courier New,Courier New_MSFontService,sans-serif"
+              font-weight="700" font-size="14" transform="matrix(0.734884 0 0 0.735189 1124.6 320)">06</text>
+        <text fill="#F5F1EA" fill-opacity="0.846" font-family="Courier New,Courier New_MSFontService,sans-serif"
+              font-weight="700" font-size="14" transform="matrix(0.734884 0 0 0.735189 1195.64 320)">Inference</text>
+        <text fill="#F5F1EA" fill-opacity="0.395" font-family="Courier New,Courier New_MSFontService,sans-serif"
+              font-weight="400" font-size="11" transform="matrix(0.734884 0 0 0.735189 1124.6 362)">WRITES</text>
+        <text fill="#BC4F39" fill-opacity="0.902" font-family="Courier New,Courier New_MSFontService,sans-serif"
+              font-weight="700" font-size="14" transform="matrix(0.734884 0 0 0.735189 1124.6 384)">predictions</text>
+        <text fill="#BC4F39" fill-opacity="0.902" font-family="Courier New,Courier New_MSFontService,sans-serif"
+              font-weight="700" font-size="14" transform="matrix(0.734884 0 0 0.735189 1198.18 384)">/</text>
+        <path d="M1190.09 279.256 1321.32 279.256" stroke="#F5F1EA" stroke-width="0.734884" stroke-opacity="0.122"
+              fill="none" transform="matrix(1 0 0 1.00042 -65.4884 121.207)"/>
+        <text fill="#F5F1EA" fill-opacity="0.62" font-family="Courier New,Courier New_MSFontService,sans-serif"
+              font-weight="400" font-size="11" transform="matrix(0.734884 0 0 0.735189 1124.6 422)">merged XML </text>
+        <text fill="#F5F1EA" fill-opacity="0.62" font-family="Courier New,Courier New_MSFontService,sans-serif"
+              font-weight="400" font-size="11" transform="matrix(0.734884 0 0 0.735189 1182.6 422)">+ </text>
+        <text fill="#F5F1EA" fill-opacity="0.62" font-family="Courier New,Courier New_MSFontService,sans-serif"
+              font-weight="400" font-size="11" transform="matrix(0.734884 0 0 0.735189 1192.81 422)">overlays</text>
+        <path d="M76.4279 337.312 1334.55 337.312" stroke="#F5F1EA" stroke-width="0.734884" stroke-opacity="0.122"
+              fill="none" transform="matrix(1 0 0 1.00042 -65.4884 121.207)"/></g></svg>
