@@ -24,7 +24,7 @@ function Contact() {
             }
         };
     return (
-        <section id={'Contact'} className={'min-h-screen'}>
+        <section id={'Contact'} className={'min-h-screen scroll-mt-28'}>
             <div className='min-h-screen flex flex-col items-center justify-center px-8'>
                 <div className={'text-center mb-8'}>
                     <h2 className={'text-2xl md:text-3xl xl:text-4xl 2xl:text-5xl font-bold text-black dark:text-white'}>Send me a Message!</h2>
