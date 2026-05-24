@@ -2,17 +2,29 @@
 @custom-variant dark (&:where(.dark, .dark *));
 
 .custom-line:before {
-    @apply bg-black dark:bg-slate-300;
+    @apply bg-black;
 }
 
 .vertical-timeline-element-content {
-    @apply bg-white dark:bg-slate-900
-            text-slate-900 dark:text-slate-50
+    @apply bg-white
+            text-slate-900
             p-6 md:p-8 rounded-xl box-border
             shadow-[0_4px_12px_rgba(0,0,0,0.4)]
             dark:shadow-[0_4px_25px_rgba(0,0,0,0.4)]
 }
 
 .vertical-timeline-element-content-arrow {
-    @apply border-r-white dark:border-r-slate-900;
+    @apply border-r-white;
+}
+
+.dark .custom-line:before {
+    @apply bg-slate-300;
+}
+
+.dark .vertical-timeline-element-content {
+    @apply bg-slate-900 text-slate-50;
+}
+
+.dark .vertical-timeline-element-content-arrow {
+    @apply border-r-slate-900;
 }
