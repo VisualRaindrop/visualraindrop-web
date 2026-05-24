@@ -57,7 +57,7 @@ function Contact() {
                         required
                     ></textarea>
                     <div className='flex justify-center pt-4'>
-                        <button type="submit" className={'px-8 py-3 text-white bg-black dark:text-black dark:bg-white'}>Submit</button>
+                        <button type="submit" className={'px-8 py-3 text-white bg-black dark:text-black dark:bg-white cursor-pointer hover:bg-gray-600 hover:dark:bg-gray-400 rounded-xl'}>Submit</button>
                     </div>
                 </form>
             </div>
