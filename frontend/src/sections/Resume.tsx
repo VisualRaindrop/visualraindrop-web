@@ -24,10 +24,10 @@ function Resume() {
         get_timeline().then(timeline => set_timeline(timeline));
     }, []);
     return(
-        <section id={'Resume'} className={'min-h-screen scroll-mt-28'}>
+        <section id={'Resume'} className={'scroll-mt-28 py-20 md:py-28'}>
             <h2 className={'text-2xl md:text-3xl xl:text-4xl 2xl:text-5xl pb-4 font-bold text-center'}>Timeline</h2>
             <p className={'flex justify-center text-(--text)'}>Education and professional experience</p>
-            <div className="mt-6 flex justify-center gap-4">
+            <div className="mt-6 flex justify-center gap-4 pb-4">
                 <button onClick={() => window.open('/Kevin_Truong_Resume.pdf', '_blank')}
                         className={'px-4 py-2 bg-purple-500 text-white rounded hover:bg-purple-600'}>
                     View Resume
