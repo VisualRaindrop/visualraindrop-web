@@ -29,14 +29,14 @@ function Contact() {
                 <div className={'text-center mb-8'}>
                     <h2 className={'text-2xl md:text-3xl xl:text-4xl 2xl:text-5xl font-bold text-black dark:text-white'}>Send me a Message!</h2>
                 </div>
-                <form onSubmit={handleSubmit} className={'w-1/2 flex flex-col gap-2 text-white dark:text-black rounded-lg'}>
+                <form onSubmit={handleSubmit} className={'w-1/2 flex flex-col gap-2 text-black dark:text-black rounded-lg'}>
                     <input
                         type='text'
                         name='name'
                         value={contact_form_data.name}
                         onChange={handleChange}
                         placeholder='Name'
-                        className={'w-full border border-black bg-gray-900 dark:border-white dark:bg-gray-100 rounded p-2'}
+                        className={'w-full border border-black bg-white dark:border-white dark:bg-gray-100 rounded p-2'}
                         required
                     />
                     <input
@@ -45,7 +45,7 @@ function Contact() {
                         value={contact_form_data.email}
                         onChange={handleChange}
                         placeholder='Email'
-                        className={'w-full border border-black bg-gray-900 dark:border-white dark:bg-gray-100 rounded p-2'}
+                        className={'w-full border border-black bg-white dark:border-white dark:bg-gray-100 rounded p-2'}
                         required
                     />
                     <textarea
@@ -53,7 +53,7 @@ function Contact() {
                         value={contact_form_data.message}
                         onChange={handleChange}
                         placeholder='Message'
-                        className={'w-full border border-black bg-gray-900 dark:border-white dark:bg-gray-100 rounded p-2'}
+                        className={'w-full border border-black bg-white dark:border-white dark:bg-gray-100 rounded p-2'}
                         required
                     ></textarea>
                     <div className='flex justify-center pt-4'>
