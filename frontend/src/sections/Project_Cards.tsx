@@ -4,7 +4,7 @@ function Project_Cards() {
         <section id={'Project_Cards'} className={'flex flex-col justify-center scroll-mt-28 py-20 md:py-28'}>
             <h2 className={'text-2xl md:text-3xl xl:text-4xl 2xl:text-5xl text-center gap-4'}>Projects</h2>
             <div className={'flex flex-row justify-evenly items-center w-full gap-4 pt-4'}>
-                <div className="rounded-2xl border border-[var(--border)] bg-[var(--bg)] p-6 shadow-sm transition hover:-translate-y-1 hover:shadow-lg w-1/2 md:w-1/2">
+                <div className="basis-1/2 rounded-2xl border border-[var(--border)] bg-[var(--bg)] p-6 shadow-sm transition hover:-translate-y-1 hover:shadow-lg">
                     <h4 className="text-xl font-semibold text-[var(--text-h)]">
                         Lunar Detector Pipeline
                     </h4>
@@ -12,7 +12,7 @@ function Project_Cards() {
                         A pipeline for detecting lunar surface features using lunar images with geolocation.
                     </p>
                 </div>
-                <div className="rounded-2xl border border-[var(--border)] bg-[var(--bg)] p-6 shadow-sm transition hover:-translate-y-1 hover:shadow-lg w-1/2 md:w-1/2">
+                <div className="basis-1/2 rounded-2xl border border-[var(--border)] bg-[var(--bg)] p-6 shadow-sm transition hover:-translate-y-1 hover:shadow-lg">
                     <h4 className="text-xl font-semibold text-[var(--text-h)]">
                         Full Stack Website
                     </h4>

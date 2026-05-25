@@ -57,3 +57,114 @@ body {
 .dark  #social .button-icon {
     filter: invert(1) brightness(2);
 }
+
+.star {
+  position: absolute;
+  border-radius: 999px;
+  background: white;
+  opacity: 0;
+  box-shadow: 0 0 6px rgba(255, 255, 255, 0.8);
+  animation-name: star-life;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+}
+
+@keyframes star-life {
+  0% {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+
+  10% {
+    opacity: 0.5;
+    transform: scale(0.75);
+  }
+
+  25% {
+    opacity: 0.9;
+    transform: scale(1);
+  }
+
+  40% {
+    opacity: 0.35;
+    transform: scale(0.45);
+  }
+
+  60% {
+    opacity: 0.5;
+    transform: scale(0.75);
+  }
+
+  75% {
+    opacity: 1;
+    transform: scale(1.15);
+  }
+
+  100% {
+    opacity: 0;
+    transform: scale(0.4);
+  }
+}
+
+.shooting-star {
+  position: absolute;
+  width: 120px;
+  height: 2px;
+  opacity: 0;
+  border-radius: 999px;
+  pointer-events: none;
+}
+
+.shooting-star-normal {
+  background: linear-gradient(90deg, white, transparent);
+  animation-name: shooting-star;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+}
+
+.shooting-star-flipped {
+  background: linear-gradient(270deg, white, transparent);
+  animation-name: shooting-star-flipped;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+}
+
+@keyframes shooting-star {
+  0% {
+    transform: translate(0, 0) rotate(-35deg);
+    opacity: 0;
+  }
+
+  8% {
+    opacity: 0.9;
+  }
+
+  18% {
+    transform: translate(-700px, 450px) rotate(-35deg);
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes shooting-star-flipped {
+  0% {
+    transform: translate(0px, 0px) rotate(35deg);
+    opacity: 0;
+  }
+
+  8% {
+    opacity: 0.9;
+  }
+
+  18% {
+    transform: translate(700px, 450px) rotate(35deg);
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
