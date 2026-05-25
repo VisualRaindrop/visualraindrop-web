@@ -8,6 +8,7 @@ function Navbar () {
     const links = [
         { label: 'Home', href: '/' },
         { label: 'Project', href: '/project' },
+        { label: 'Contact', href: '/contact' },
     ]
     return (
         <nav className={'w-full fixed z-50 top-0 px-6 backdrop-blur-lg md:px-12 xl:px-20 2xl:px-32 pt-6 pb-6 border-b'}>

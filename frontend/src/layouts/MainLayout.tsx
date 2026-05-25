@@ -16,10 +16,11 @@ export default function MainLayout({ children }: { children: ReactNode }) {
           <div className="absolute right-[10%] top-[45%] h-[30rem] w-[30rem] rounded-full dark:bg-blue-500/20 blur-[120px]" />
       </div>
 
-      {/* Content */}
-      <div className="relative z-10">
+      <div className="relative z-10 flex min-h-screen flex-col">
         <Navbar />
-        <main>{children}</main>
+          <main className={'pt-24 flex-1'}>
+              {children}
+          </main>
         <Footer />
       </div>
     </div>

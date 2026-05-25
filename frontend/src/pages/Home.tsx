@@ -1,7 +1,6 @@
 import Introduction from "../sections/Introduction";
 import About from "../sections/About";
 import Resume from "../sections/Resume";
-import Contact from "../sections/Contact";
 import Project_Cards from "../sections/Project_Cards";
 
 function Home() {
@@ -12,7 +11,6 @@ function Home() {
                 <About />
                 <Resume />
                 <Project_Cards />
-                <Contact />
             </div>
         </main>
     )
