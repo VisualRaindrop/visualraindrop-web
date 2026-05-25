@@ -27,17 +27,17 @@ function Navbar() {
                             </svg>
                         </NavLink>
                         <div
-                            className="absolute top-full left-0 mt-1 w-44 bg-purple-900 border-2 border-purple-500 rounded-xl shadow-lg py-2 z-50 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all">
+                            className="absolute top-full left-0 mt-1 w-44 bg-white dark:bg-purple-900 dark:border-2 dark:border-purple-500 rounded-xl shadow-lg py-2 z-50 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all">
                             <HashLink
                                 smooth
                                 to="/project#JPL_Introduction"
-                                className="block px-4 py-2 text-sm hover:text-white hover:bg-purple-500"
+                                className="block px-4 py-2 text-sm hover:bg-gray-200 dark:hover:text-white dark:hover:bg-purple-500"
                             >Lunar Detection Pipeline
                             </HashLink>
                             <HashLink
                                 smooth
                                 to="/project#Web_Introduction"
-                                className="block px-4 py-2 text-sm hover:text-white hover:bg-purple-500"
+                                className="block px-4 py-2 text-sm hover:bg-gray-200 dark:hover:text-white dark:hover:bg-purple-500"
                             >Full Stack Website
                             </HashLink>
                         </div>
