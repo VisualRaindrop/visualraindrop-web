@@ -1,7 +1,7 @@
 function Web_Architecture() {
     return (
         <section id={'Web_Architecture'} className={'scroll-mt-28 py-20 md:py-28'}>
-            <h2 className={'text-2xl md:text-3xl xl:text-4xl 2xl:text-5xl'}>Web Architecture</h2>
+            <h2 className={'text-2xl md:text-3xl xl:text-4xl 2xl:text-5xl text-center pb-8'}>Web Architecture</h2>
             <div className={'flex flex-row justify-evenly items-left gap-4 w-full'}>
                 <img src={'/website-architecture.png'} alt={'website architecture'} className={'w-1/4 md:w-1/5'}/>
                 <div className={'flex flex-col justify-start items-left gap-4 w-1/2 md:w-1/3'}>

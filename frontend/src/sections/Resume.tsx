@@ -44,7 +44,7 @@ function Resume() {
                     Download Resume
                 </button>
             </div>
-            <div className="mx-auto max-w-7xl">
+            <div className="mx-auto max-screen-lg w-full">
                 <VerticalTimeline className="custom-line">
                     {timeline.map((occupation, index) => (
                         <VerticalTimelineElement
