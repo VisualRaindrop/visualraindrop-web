@@ -3,8 +3,7 @@ function JPL_Goals() {
         <section className={'scroll-mt-28'}>
             <div className={'flex flex-row justify-center w-full gap-4'}>
                 <div className="mt-10 grid gap-6 md:grid-cols-3">
-                    <div
-                        className="rounded-2xl border border-[var(--border)] bg-[var(--bg)] p-6 shadow-sm transition hover:-translate-y-1 hover:shadow-lg">
+                    <div className="rounded-2xl border border-[var(--border)] bg-[var(--bg)] p-6 shadow-sm transition hover:-translate-y-1 hover:shadow-lg">
                         <h4 className="text-xl font-semibold text-[var(--text-h)]">
                             Image Processing
                         </h4>
@@ -13,8 +12,7 @@ function JPL_Goals() {
                             such as coordinates, raster data, and image metadata
                         </p>
                     </div>
-                    <div
-                        className="rounded-2xl border border-[var(--border)] bg-[var(--bg)] p-6 shadow-sm transition hover:-translate-y-1 hover:shadow-lg">
+                    <div className="rounded-2xl border border-[var(--border)] bg-[var(--bg)] p-6 shadow-sm transition hover:-translate-y-1 hover:shadow-lg">
                         <h4 className="text-xl font-semibold text-[var(--text-h)]">
                             Feature Detection
                         </h4>
@@ -25,8 +23,7 @@ function JPL_Goals() {
                         </p>
                     </div>
 
-                    <div
-                        className="rounded-2xl border border-[var(--border)] bg-[var(--bg)] p-6 shadow-sm transition hover:-translate-y-1 hover:shadow-lg">
+                    <div className="rounded-2xl border border-[var(--border)] bg-[var(--bg)] p-6 shadow-sm transition hover:-translate-y-1 hover:shadow-lg">
                         <h4 className="text-xl font-semibold text-[var(--text-h)]">
                             Geolocation
                         </h4>
@@ -37,7 +34,8 @@ function JPL_Goals() {
                     </div>
                 </div>
             </div>
-            <img src={'/lunar-surface-images.png'} alt={'lunar surface features'} className={'w-1/2 md:w-1/3 mx-auto mt-10 md:mt-20'}/>
+            <img src={'/lunar-surface-images.png'} alt={'lunar surface features'}
+                 className={'w-1/2 md:w-1/3 mx-auto mt-10 md:mt-20'}/>
         </section>
     )
 }
