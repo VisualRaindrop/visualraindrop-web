@@ -6,7 +6,9 @@ function JPL_Pipeline() {
                 Raw LROC images are converted into tiles, annotated, trained,
                 and mapped back into lunar coordinates.
             </p>
-            <img src={'/architecture-pipeline.svg'} alt={'architecture'} className={'w-full h-auto'}/>
+            <div className="bg-[var(--card)] pl-4 pr-4">
+                <img src={'/architecture-pipeline.svg'} alt={'architecture'} className={'w-full h-auto'}/>
+            </div>
         </section>
     );
 }

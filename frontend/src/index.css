@@ -21,6 +21,7 @@ body {
   --sans: system-ui, 'Segoe UI', Roboto, sans-serif;
   --heading: system-ui, 'Segoe UI', Roboto, sans-serif;
   --mono: ui-monospace, Consolas, monospace;
+  --card: #000000;
 
   font: 18px/145% var(--sans);
   letter-spacing: 0.18px;
